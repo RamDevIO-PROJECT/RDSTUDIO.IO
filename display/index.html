@@ -139,9 +139,21 @@ body {
       </div>
       
       <div class="btn-container">
+            <div id="login">
+              <input id="playerName" type="text" value="player">
+              <select id="color">
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+                <option value="green">green</option>
+                <option value="yellow">yellow</option>
+              </select>
+              <input type="submit" value="play" onclick="loginPlayer()">
+            </div>
+        
         <div class="joystick-base" touch-action="none">
           <div class="joystick-shaft" touch-action="none"></div>
         </div>
+        
         <!--
         <div class="controls">
           <div class="dpad">
